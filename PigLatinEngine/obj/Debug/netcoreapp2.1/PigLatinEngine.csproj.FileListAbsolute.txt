@@ -1,0 +1,9 @@
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\bin\Debug\netcoreapp2.1\PigLatinEngine.deps.json
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\bin\Debug\netcoreapp2.1\PigLatinEngine.dll
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\bin\Debug\netcoreapp2.1\PigLatinEngine.pdb
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.csprojAssemblyReference.cache
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.csproj.CoreCompileInputs.cache
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.AssemblyInfoInputs.cache
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.AssemblyInfo.cs
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.dll
+C:\Users\olive\OneDrive\Documents\Visual Studio 2017\Projects\piglatin-master\PigLatinEngine\obj\Debug\netcoreapp2.1\PigLatinEngine.pdb

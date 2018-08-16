@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PigLatinEngine;
 
 namespace PigLatin.Controllers
 {
@@ -14,7 +15,7 @@ namespace PigLatin.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "foo", "bar" };
+            return new string[] { "Hello", "World" };
         }
 
         // GET api/values/5
@@ -26,8 +27,13 @@ namespace PigLatin.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<string[]> Post([FromBody] string value)
         {
+            RuleEngine pigTransform = new RuleEngine();
+            string[] words = pigTransform.WordSplit(value);
+            List<Rules> rulesToApply = pigTransform.DetermineWordStructure(words);
+            string[] pigLatin = pigTransform.WordTransform(rulesToApply, words);
+            return pigLatin;
         }
 
         // PUT api/values/5
