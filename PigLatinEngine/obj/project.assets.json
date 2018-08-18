@@ -681,30 +681,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\olive\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/chrispainter/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olive\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\piglatin-master\\PigLatinEngine\\PigLatinEngine.csproj",
+      "projectUniqueName": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/PigLatinEngine.csproj",
       "projectName": "PigLatinEngine",
-      "projectPath": "C:\\Users\\olive\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\piglatin-master\\PigLatinEngine\\PigLatinEngine.csproj",
-      "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olive\\OneDrive\\Documents\\Visual Studio 2017\\Projects\\piglatin-master\\PigLatinEngine\\obj\\",
+      "projectPath": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/PigLatinEngine.csproj",
+      "packagesPath": "/Users/chrispainter/.nuget/packages/",
+      "outputPath": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/chrispainter/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -724,7 +722,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.0, )",
+            "version": "2.1.0",
             "autoReferenced": true
           }
         },
