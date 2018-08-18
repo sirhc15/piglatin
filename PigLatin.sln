@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigLatin", "PigLatin\PigLatin.csproj", "{5C6F3167-68DD-4DED-8CEF-0F34114FAA44}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigLatin", "PigLatin\PigLatin.csproj", "{5C6F3167-68DD-4DED-8CEF-0F34114FAA44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigLatinEngine", "PigLatinEngine\PigLatinEngine.csproj", "{0D3BAA49-9910-42B6-8850-9543F5EE1F71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{5C6F3167-68DD-4DED-8CEF-0F34114FAA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6F3167-68DD-4DED-8CEF-0F34114FAA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6F3167-68DD-4DED-8CEF-0F34114FAA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3BAA49-9910-42B6-8850-9543F5EE1F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3BAA49-9910-42B6-8850-9543F5EE1F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3BAA49-9910-42B6-8850-9543F5EE1F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3BAA49-9910-42B6-8850-9543F5EE1F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1874D3-9857-402E-A220-2B678EE5E7A4}
 	EndGlobalSection
 EndGlobal
