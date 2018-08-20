@@ -15,3 +15,4 @@ C:/Users/olive/OneDrive/Documents/Visual Studio 2017/Projects/piglatin-master/Pi
 /Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj/Debug/netcoreapp2.1/PigLatinEngine.AssemblyInfo.cs
 /Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj/Debug/netcoreapp2.1/PigLatinEngine.dll
 /Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj/Debug/netcoreapp2.1/PigLatinEngine.pdb
+/Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj/debug/netcoreapp2.1/PigLatinEngine.csprojAssemblyReference.cache

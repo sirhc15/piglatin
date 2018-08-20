@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Application says what?</h1>\n<ul>\n   <li *ngFor=\"let value of apiValues\">{{value}}</li>\n</ul>"
+module.exports = "<h1>Thanks for reading!</h1>\n<ul>\n   <li *ngFor=\"let value of apiValues\">{{value}}</li>\n</ul>\n<input #englishText type=\"text\" value='English goes here.'>\n<div *ngFor=\"let value of pigLatinValues\">{{value}}</div>\n<div *ngFor=\"let value of apiValues\">{{value}}</div>\n<button (click) = 'submitEnglishText(englishText.value)' type=\"submit\">Submit!</button>"
 
 /***/ }),
 
@@ -71,12 +71,22 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent(_httpService) {
         this._httpService = _httpService;
+        this.pigLatinValues = [];
         this.apiValues = [];
+        this.englishText = "";
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
         this._httpService.get('/api/values').subscribe(function (values) {
             _this.apiValues = values.json();
+        });
+    };
+    AppComponent.prototype.submitEnglishText = function (inputText) {
+        var _this = this;
+        this.englishText = inputText;
+        console.log(this.englishText);
+        this._httpService.post('/api/values', inputText).subscribe(function (values) {
+            _this.pigLatinValues = values.json();
         });
     };
     AppComponent = __decorate([

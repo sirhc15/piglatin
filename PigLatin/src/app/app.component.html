@@ -3,5 +3,6 @@
    <li *ngFor="let value of apiValues">{{value}}</li>
 </ul>
 <input #englishText type="text" value='English goes here.'>
+<div *ngFor="let value of pigLatinValues">{{value}}</div>
 <div *ngFor="let value of apiValues">{{value}}</div>
-<button (click) = 'submitText(englishText.value)' type="submit">Submit!</button>
+<button (click) = 'submitEnglishText(englishText.value)' type="submit">Submit!</button>

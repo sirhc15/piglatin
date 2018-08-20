@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PigLatinEngine;
 
@@ -27,7 +24,7 @@ namespace PigLatin.Controllers
 
         // POST api/values
         [HttpPost]
-        public ActionResult<string[]> Post([FromBody] string value)
+        public ActionResult<IEnumerable<string>> Post([FromBody] string value)
         {
             RuleEngine pigTransform = new RuleEngine();
             string[] words = pigTransform.WordSplit(value);

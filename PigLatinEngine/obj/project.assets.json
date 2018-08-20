@@ -691,13 +691,13 @@
       "projectName": "PigLatinEngine",
       "projectPath": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/PigLatinEngine.csproj",
       "packagesPath": "/Users/chrispainter/.nuget/packages/",
-      "outputPath": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj",
+      "outputPath": "/Users/chrispainter/Projects/PigLatin/PigLatinEngine/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/chrispainter/.config/NuGet/NuGet.Config"
+        "/Users/chrispainter/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -722,7 +722,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
